@@ -1,0 +1,32 @@
+# Virtual environments (never commit these — huge, and can leak local paths/creds)
+venv/
+env/
+.venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment variables / secrets — never commit real values
+.env
+.env.*
+*.pem
+*.key
+
+# Logs
+*.log
